@@ -1,0 +1,11 @@
+def Fibonacci(n): 
+    if n<0: 
+        print("Invalid input")  
+    elif n==1: 
+        return 0 
+    elif n==2: 
+        return 1
+    else: 
+        return fib(n-1)+fib(n-2) 
+x = input("Enter the position of the term in fibonacci sequence.")  
+print(fib(x)) 
